@@ -53,3 +53,6 @@ img {
 #film-info {
   padding-bottom: 15px;
 }
+.film:hover {
+cursor:pointer;
+}
