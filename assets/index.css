@@ -38,12 +38,14 @@ body {
 }
 
 .film {
+  font-family: poppins;
   font-size: 16px;
   text-transform: uppercase;
 }
 
 .sold-out {
-  color: lightgray;
+  color: rgb(211, 211, 211);
+  text-decoration: line-through;
 }
 
 img {
@@ -55,4 +57,17 @@ img {
 }
 .film:hover {
 cursor:pointer;
+text-decoration: underline;
+}
+.film-item{
+  font-family: poppins;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+#deleteContent{
+ display: grid;
+  color: rgb(133, 184, 184);
+  height: 20px;
+  border-radius: 4px;
+
 }
